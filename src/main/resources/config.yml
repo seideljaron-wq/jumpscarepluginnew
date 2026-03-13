@@ -1,0 +1,16 @@
+# JumpScare Configuration
+
+# Players allowed to use /jumpscare (UUIDs)
+# "javakuba" is added by default via OP check.
+# Use /jumpscare add <player> to add more.
+allowed-users: []
+
+# How long the screen effect lasts (in ticks, 20 ticks = 1 second)
+# Keep this short for maximum scare effect!
+title-duration-ticks: 30
+
+# Sound volume (MAX is 10.0 - absolutely deafening)
+sound-volume: 10.0
+
+# Cooldown between jumpscares per target (in seconds)
+cooldown-seconds: 5

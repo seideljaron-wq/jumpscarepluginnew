@@ -1,0 +1,19 @@
+name: JumpScare
+version: '${project.version}'
+main: dev.jumpscare.JumpScare
+api-version: '1.20'
+description: Jumpscare command plugin
+authors: [RuneMC]
+
+permissions:
+  jumpscare.use:
+    description: Use /jumpscare on players
+    default: op
+  jumpscare.admin:
+    description: Add/remove jumpscare users
+    default: op
+
+commands:
+  jumpscare:
+    description: Scare a player
+    usage: /jumpscare <player> [sound] | add <player> | remove <player>
